@@ -144,21 +144,27 @@ section.dark .social_icons li a
     transform: rotate(360deg);
     background: #03a9f4;
 }
+section.dark .social_icons li a:hover
+{
+    transform: rotate(360deg);
+    background: #03a9f4;
+}
 .toggle
 {
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 5px;
     background: #e9f5ff;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    display: flex;
+    display:flex;
+    text-decoration: none;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    margin: auto;
-    transition: background 0.5s;
+    margin-left: 15px;
+    
 }
 section.dark .toggle
 {
@@ -176,22 +182,4 @@ section.dark .toggle::before
 {
     content: '\f185';
     color: #fff;
-}
-.toggletext
-{
-    
-    position: absolute;
-    top: 0.50px;
-    right: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition:  0.5s;
-    margin: 10px;
-
-}
-section.dark .toggletext
-{
-   color: #fff;
 }
