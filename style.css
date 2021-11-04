@@ -40,10 +40,14 @@ section.dark .container
     position: relative;
     width: 250px;
     height: 350px;
-    background: linear-gradient(#2196f3, #2196f3 30%, #1d3548 30%, #1d3548);
+    background: linear-gradient(#2196f3, #2196f3 30%, #1d3548 60%, #1d3548);
     margin: 10px;
     border-radius: 20px;
     overflow: hidden;
+}
+section.dark .container .cards
+{
+    background: linear-gradient(#4744ddcc, #4744ddcc 30%, #6f1181 60%, #6f1181);
 }
 .container .cards .imgBx
 {
@@ -147,7 +151,7 @@ section.dark .social_icons li a
 section.dark .social_icons li a:hover
 {
     transform: rotate(360deg);
-    background: #03a9f4;
+    background: #4744dd;
 }
 .toggle
 {
