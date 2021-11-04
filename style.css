@@ -44,6 +44,7 @@ section.dark .container
     margin: 10px;
     border-radius: 20px;
     overflow: hidden;
+    transition: 0.5s;
 }
 section.dark .container .cards
 {
@@ -141,7 +142,7 @@ section.dark .container .cards
 }
 section.dark .social_icons li a
 {
-    background: #404852;
+    background: #b838dfce;
 }
 .social_icons li a:hover
 {
@@ -168,7 +169,7 @@ section.dark .social_icons li a:hover
     align-items: center;
     cursor: pointer;
     margin-left: 15px;
-    
+    transition: 0.5s;
 }
 section.dark .toggle
 {
