@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://127.0.0.1:5500/Carddn/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative user cards! @stark</title>
+    <link rel="stylesheet" href="./Creative user cards! @stark_files/style.css">
+
+    <script src="https://kit.fontawesome.com/b10f3d159e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body>
+    <section class="sec">
+    <div class="container">
+
+
+        <div class="cards">
+
+            <div class="imgBx">
+                <img src="./Creative user cards! @stark_files/pradeep.png" alt="profile dp">
+            </div>
+            
+            <div class="content">
+                
+                <div class="details">
+                    <div class="toggle"></div>
+
+                    <h2>Pradeep<br><span>Web Developer</span></h2>
+                    <ul class="social_icons">
+                        <li><a href="https://www.facebook.com/pradeep.15a/" target="blank"><i class="icon fab fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a href="mailto:pradeepashok1122@gmail.com" target="blank"><i class="icon far fa-envelope fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/Pradeep_15A" target="blank"><i class="icon fab fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/93__pradeep/" target="blank"><i class="icon fab fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            
+        </div>
+
+
+    </div>
+</section>
+<script>
+    const sec = document.querySelector('.sec');
+    const toggle = document.querySelector('.toggle');
+    toggle.onclick = function(){
+        sec.classList.toggle('dark')
+    }
+</script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
